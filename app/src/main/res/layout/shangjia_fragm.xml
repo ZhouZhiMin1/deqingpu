@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="118px"
+        android:paddingLeft="28px"
+        android:paddingRight="36px"
+        android:background="@color/titlecolor">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="90px"
+            android:layout_marginTop="28px">
+            <LinearLayout
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_47"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="天祝路"
+                    android:layout_marginLeft="6px"
+                    android:layout_marginRight="6px"
+                    android:textColor="@color/white"
+                    android:textSize="25px"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_48"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="60px"
+                android:src="@drawable/dqp"
+                android:layout_centerInParent="true"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/icon_27"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90px"
+        android:orientation="horizontal"
+        android:background="@color/white">
+        <TextView
+            android:text="享美食"
+            android:textColor="@color/zilanmu_textcolor"
+            android:gravity="center"
+            android:textSize="30px"
+            android:layout_weight="1"
+            android:layout_width="0px"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="住酒店"
+            android:textColor="@color/zilanmu_textcolor"
+            android:gravity="center"
+            android:textSize="30px"
+            android:layout_weight="1"
+            android:layout_width="0px"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="爱玩乐"
+            android:textColor="@color/zilanmu_textcolor"
+            android:gravity="center"
+            android:textSize="30px"
+            android:layout_weight="1"
+            android:layout_width="0px"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="爱旅游"
+            android:textColor="@color/zilanmu_textcolor"
+            android:gravity="center"
+            android:textSize="30px"
+            android:layout_weight="1"
+            android:layout_width="0px"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="全部"
+            android:textColor="@color/zilanmu_textcolor"
+            android:gravity="center"
+            android:textSize="30px"
+            android:layout_weight="1"
+            android:layout_width="0px"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+
+
+</LinearLayout>
